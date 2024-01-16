@@ -66,7 +66,7 @@ header > ul >li >a {
 }
 /* styling group1 */
 .group1{
-    height: 500px;
+    height: 400px;
     background-image: url("assets/Group\ 13\ \(1\)\ \(1\).png");
     background-repeat: no-repeat;
     padding: 106px 287px;
@@ -98,6 +98,7 @@ header > ul >li >a {
     width: 174px;
     border-radius: 8px;
     background: #FFF;
+    border: none;
 }
 #when{
     width: 174px;
@@ -119,4 +120,84 @@ header > ul >li >a {
     font-weight: 700;
     display: flex;
     align-items: center;
+    border: none;
+}
+.group2{
+    display: flex;
+
+}
+.text1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.text1 > button {
+    width: 174px;
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 20px;
+    font-weight: 800;
+    border: none;
+    
+}
+.group3-text > h2{
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-weight: 800;
+}
+.group3-text >p {
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    
+}
+.choose > h1{
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-weight: 800;
+}
+.choose > p{
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    
+}
+.section1{
+    width: 573px;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+}
+.section2{
+    width: 573px;
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+.section3{
+    width: 573px;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    margin-left: 50%;
+    margin-top: 10px;
+}
+.section{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+@media screen and (max-width: 600px) {
+
+   
 }
